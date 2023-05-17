@@ -142,6 +142,7 @@ z-index: 50;
 }
 
 .body-main-block {
+	position: relative;
 	display: flex;
 	align-items: flex-start;
 }
@@ -236,6 +237,36 @@ z-index: 50;
 	height: 100%;
 	object-fit: cover;
 }
+
+.body-main-block__arrows {
+	position: absolute;
+	bottom: -52px;
+	right: 0;
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.body-main-block__arrow.swiper-button-prev,
+.body-main-block__arrow.swiper-button-next {
+	position: static;
+	height: 20px;
+	width: 11px;
+	background: url('../img/icons/arrow.svg') 0 0 /100% no-repeat;
+}
+.body-main-block__arrow::after {
+	display: none;
+}
+
+.body-main-block__arrow.swiper-button-prev {
+	transform: rotate(-180deg);
+}
+
+/* .swiper-button-prev {
+}
+.swiper-button-next {
+} */
+
 
 .partners-main-block {
 	max-width: 65%;
