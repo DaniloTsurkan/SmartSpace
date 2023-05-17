@@ -7,6 +7,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+	/>
 	<link rel="stylesheet" href="css/style.css">
   <title>HomePage</title>
 </head>
@@ -58,7 +62,23 @@
 
 								</form>
 							</div>
-							<div class="body-main-block__slider">
+							<div class="swiper body-main-block__slider slider-main-block">
+								<!-- Additional required wrapper -->
+								<div class="slider-main-block__wrapper swiper-wrapper">
+									<!-- Slides -->
+									<div class="slider-main-block__slide swiper-slide">
+										<img src="img/main/slider/01.jpg" alt="">
+									</div>
+									<div class="slider-main-block__slide swiper-slide">
+										<img src="img/main/slider/01.jpg" alt="">
+									</div>
+									<div class="slider-main-block__slide swiper-slide">
+										<img src="img/main/slider/01.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="slider-main-block__arrow swiper-button-prev"></div>
+								<div class="slider-main-block__arrow swiper-button-next"></div>
 							</div>
 						</div>
 						<div class="main-block__partners partners-main-block">
@@ -66,7 +86,24 @@
 								Our Amazing Partners
 							</div>
 							<div class="partners-main-block__items">
-								<div class="partners-main-block__item"></div>
+								<div class="partners-main-block__item">
+									<img src="img/partners/buzz.png" alt="">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/partners/chase.png" alt="">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/partners/Microsoft.png" alt="">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/partners/CUCC.png" alt="">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/partners/airbnb.png" alt="">
+								</div>
+								<div class="partners-main-block__item">
+									<img src="img/partners/Uber.png" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -80,5 +117,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
