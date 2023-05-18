@@ -119,6 +119,7 @@ z-index: 50;
 */
 
 .main-block {
+	padding: 0px 0px 110px 0px;
 }
 
 .main-block__container {
@@ -152,6 +153,8 @@ z-index: 50;
 
 .content-main-block {
 	padding: 40px 0px 0px 0px;
+	position: relative;
+	z-index: 2;
 }
 .content-main-block__sub-title {
 	font-weight: 700;
@@ -186,12 +189,12 @@ z-index: 50;
 	position: relative;
 	z-index: 2;
 	display: flex;
-	height: 86px;
 	margin: 0px -188px 0px 0px;
-	background: #fff url('../img/icons/House.svg') 33px 50% no-repeat;
+	background: #fff url('../img/icons/House.svg') 33px 32px no-repeat;
 	box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
 }
 .form-main-block__input {
+	height: 86px;
 	border: 1px solid #DADADA;
 	background: transparent;
 	padding: 0px 0px 0px 74px;
@@ -203,6 +206,7 @@ z-index: 50;
 	color: rgba(49, 53, 59, 0.3);
 }
 .form-main-block__button {
+	height: 86px;
 	width: 188px;
 	padding:5px 15px;
 	cursor: pointer;
@@ -262,6 +266,8 @@ z-index: 50;
 	transform: rotate(-180deg);
 }
 
+
+
 /* .swiper-button-prev {
 }
 .swiper-button-next {
@@ -280,7 +286,7 @@ z-index: 50;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	gap: 5px;
+	gap: 25px;
 }
 .partners-main-block__item {
 }
@@ -290,6 +296,46 @@ z-index: 50;
 
 /*========================================================================================================================================================
 */
+@media (max-width: 1199.98px){
+	.body-main-block{
+		display: block;
+	}
+	.form-main-block{
+		margin: 0px 0px 0px 0px;
+	}
+	.body-main-block__content {
+		margin: 0px 0px 40px 0px;
+	}
+	.main-block__container{
+		padding: 100px 0px 30px 0px;
+	}
+	.main-block__body{
+		margin: 0px 0px 40px 0px;
+	}
+	.partners-main-block{
+		max-width: none;
+		position: relative;
+		z-index: 2;
+	}
+	.content-main-block__body{
+		padding: 0px 0px 0px 0px;
+	}
+}
 
+@media (max-width: 767.98px){
+	.partners-main-block__items{
+		justify-content: center; 
+	}
+	.content-main-block__title{
+		font-size: 30px;
+		line-height: 120%;
+	}
+	.form-main-block{
+		display: block;
+	}
+	.form-main-block__button{
+		width: 100%;
+	}
+}
 /*========================================================================================================================================================
 */
