@@ -8,3 +8,12 @@ const swiper = new Swiper('.slider-main-block', {
     prevEl: '.body-main-block__arrow.swiper-button-prev',
   },
 });
+
+const tabNavItems =document.querySelectorAll('.tabs-deals__button');
+const tabItems =document.querySelectorAll('.item-tabs');
+
+document.addEventListener("click", function (e) {
+	const targetElement=e.target;
+	if(targetElement.closest('.tabs-deals__button')){
+	}
+});
