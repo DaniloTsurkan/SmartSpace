@@ -651,3 +651,93 @@ z-index: 50;
 
 /*========================================================================================================================================================
 */
+
+
+.featured {
+}
+.featured__container {
+}
+.featured__title {
+	margin-bottom: 95px;
+}
+.featured__body {
+	padding: 40px 40px 80px 40px;
+	display: grid;
+	gap: 77px;
+	grid-template-columns: repeat(2,1fr);
+	background-color: #F1FFFF;
+}
+.featured__images {
+}
+.featured__content {
+}
+
+.images-featured {
+	display: grid;
+	justify-items: center;
+}
+.images-featured__item {
+}
+.images-featured__item img{
+	max-width: 100%;
+}
+.images-featured__item_mini {
+	margin-left: 20px;
+	margin-right: 20px;
+	filter: drop-shadow(0px 163px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704)) drop-shadow(0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963)) drop-shadow(0px 32.6px 13px rgba(0, 0, 0, 0.02)) drop-shadow(0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037)) drop-shadow(0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963)) drop-shadow(48px 58px 44px rgba(0, 0, 0, 0.09));
+	margin-top: -114px;
+}
+
+.content-featured {
+}
+.content-featured__title {
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 42px;
+	margin: 0px 0px 28px 0px;
+}
+.content-featured__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #545A58;
+	margin: 0px 0px 42px 0px;
+	width: 344px;
+}
+.content-featured__options {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	row-gap: 37px;
+}
+.content-featured__link {
+	background: #F85A47;
+	box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px 35px;
+	display: block;
+	text-align: center;
+	margin: 54px 0px 0px 0px;
+}
+
+.options-content-featured {
+}
+.options-content-featured__item {
+}
+.options-content-featured__label {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 23px;
+	margin: 0px 0px 12px 0px;
+}
+.options-content-featured__value {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 23px;
+	color: #545A58;
+}
+
+
+/*========================================================================================================================================================
+*/
